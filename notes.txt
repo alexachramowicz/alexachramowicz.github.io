@@ -1,0 +1,2 @@
+-Jekyll vs. Octopress
+-Configure DNS and verify
