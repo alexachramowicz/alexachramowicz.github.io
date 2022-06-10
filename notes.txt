@@ -1,2 +1,11 @@
 -Jekyll vs. Octopress
 -Configure DNS and verify
+
+Domains:
+-porkbun
+-namecheap
+-cloudfare
+-google Domains
+
+Hosting:
+-cloudey
