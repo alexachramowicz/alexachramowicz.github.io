@@ -9,6 +9,46 @@ html, body {
     flex-direction: column;
 }
 
+#landing-container {
+    color: #FEF5ED;
+    padding-top: 20em;
+    padding-bottom: 20em;
+
+    background-color: #656565;
+    background-image: url('../images/landing-bw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div#title{
+    flex: 0 1 auto;
+    position: absolute;
+    
+    background-color: black;
+    color:yellow;
+    font-size: 2em;
+}
+
+div#arrow {
+    flex: 0 1 auto;
+    margin-left: auto;
+    padding-right: 0.5em;
+}
+
+#arrow a{
+    color:yellow;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
 #nav-container {
     display: flex;
 }
@@ -24,15 +64,4 @@ ul#navbar {
 .nav-item a {
     text-decoration: none;
     /* color: #D3E4CD; */
-}
-
-#landing-container {
-    color: #FEF5ED;
-    padding-top: 400px;
-    padding-bottom: 400px;
-
-    background-color: #99A799;
-    background-image: url('../images/landing.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
