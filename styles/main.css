@@ -91,7 +91,7 @@ ul#navbar {
 }
     
 .header {
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: #1E2022;
     margin-bottom: 3rem;
 }
@@ -103,11 +103,11 @@ ul#navbar {
 #profile-container {
     display: flex;
     justify-content: space-between;
-    gap:5rem;
+    gap: 5.5rem;
 }
 
 #about-container {
-    width: 22rem;
+    width: 24rem;
 }
 
 #about-container span {
@@ -116,7 +116,7 @@ ul#navbar {
 }
 
 #about-para {
-    margin-top: 5px;
+    margin-top: 0.75rem;
     font-size: 1.5rem;
     color: #1E2022;
     line-height: 2.2ch;
@@ -130,12 +130,21 @@ ul#navbar {
     color: #52616B;
 }
 
-#about-btn-container a {
+.linked-in-button{
+    margin-top: 0.75rem;
+    background-color: white;
     text-decoration: none;
+    border: 1px solid #0072b1;
+    border-radius: 0.3rem;
+}
+
+.linked-in-button img {
+    padding-top: 0.4rem;
+    width: 6.5rem;
 }
 
 img#pfp {
-    width: 20.5rem;
+    width: 22.5rem;
     height: auto;
     border-radius: 50%;
     border: 0.75rem solid #52616B;
