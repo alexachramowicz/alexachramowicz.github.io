@@ -2,6 +2,7 @@ html, body {
     margin:0;
     padding:0;
     font-family: system-ui;
+    font-size: 62.5%;
 }
 
 #main-container {
@@ -11,8 +12,8 @@ html, body {
 
 #landing-container {
     color: #FEF5ED;
-    padding-top: 20em;
-    padding-bottom: 20em;
+    padding-top: 35rem;
+    padding-bottom: 35rem;
 
     background-color: #656565;
     background-image: url('../images/landing-bw.jpg');
@@ -31,22 +32,26 @@ html, body {
 div#title{
     flex: 0 1 auto;
     position: absolute;
-    
-    background-color: black;
-    color:yellow;
-    font-size: 2em;
+
+    font-size: 4.5rem;
+    background-color: #1E2022;
+    color: yellow;
 }
 
 div#arrow {
     flex: 0 1 auto;
     margin-left: auto;
-    padding-right: 0.5em;
+    padding-right: 2rem;
 }
 
 #arrow a{
-    color:yellow;
-    font-size: 1.5em;
+    color: yellow;
+    font-size: 2rem;
     text-decoration: none;
+}
+
+#arrow a:hover{
+    color: #F0F5F9;
 }
 
 #nav-container {
@@ -54,14 +59,84 @@ div#arrow {
 }
 
 ul#navbar {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
+    width: 100%;
+
+    list-style-type: none;
+    background-color: #1E2022;
+    font-size: 1.75rem;
+
     display: flex;
-    gap: 1em;
+    gap: 1.75em;
+    justify-content: center;
 }
 
-.nav-item a {
+.nav-item a, a:visited, a:hover{
     text-decoration: none;
-    /* color: #D3E4CD; */
+    color: #F0F5F9;
+}
+
+.nav-item a:hover {
+    color: #C9D6DF;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+    
+.header {
+    font-size: 5rem;
+    color: #1E2022;
+    margin-bottom: 3rem;
+}
+
+#profile {
+    background-color: #F0F5F9;
+}
+
+#profile-container {
+    display: flex;
+    justify-content: space-between;
+    gap:5rem;
+}
+
+#about-container {
+    width: 22rem;
+}
+
+#about-container span {
+    font-size: 2.5rem;
+    color: #52616B;
+}
+
+#about-para {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: #1E2022;
+    line-height: 2.2ch;
+}
+
+#about-para a {
+    color: inherit
+}
+
+#about-para a:hover{
+    color: #52616B;
+}
+
+#about-btn-container a {
+    text-decoration: none;
+}
+
+img#pfp {
+    width: 20.5rem;
+    height: auto;
+    border-radius: 50%;
+    border: 0.75rem solid #52616B;
 }
