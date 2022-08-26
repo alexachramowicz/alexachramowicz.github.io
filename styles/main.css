@@ -96,7 +96,7 @@ ul#navbar {
     margin-bottom: 3rem;
 }
 
-#profile {
+#profile, #contact {
     background-color: #F0F5F9;
 }
 
@@ -148,4 +148,23 @@ img#pfp {
     height: auto;
     border-radius: 50%;
     border: 0.75rem solid #52616B;
+    opacity: 0.9;
+}
+
+#projects {
+    background-color: #C9D6DF;
+}
+
+#projects-container {
+    display: flex;
+    gap: 5rem;
+}
+
+.project-card {
+}
+
+.project-card img {
+    width: 15rem;
+    height: auto;
+    border-radius: 0.5rem;
 }
