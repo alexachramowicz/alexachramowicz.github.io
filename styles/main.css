@@ -3,6 +3,7 @@ html, body {
     padding:0;
     font-family: system-ui;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 #main-container {
