@@ -33,7 +33,7 @@ div#title{
     flex: 0 1 auto;
     position: absolute;
 
-    font-size: 4.5rem;
+    font-size: 5rem;
     background-color: #1E2022;
     color: yellow;
 }
@@ -46,7 +46,7 @@ div#arrow {
 
 #arrow a{
     color: yellow;
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: none;
 }
 
@@ -218,7 +218,7 @@ img#pfp {
     display: flex;
     flex-direction: column;
     width: 20rem;
-    text-align: center;
+    align-items: center;
 }
 
 ul#socials-list {
@@ -241,10 +241,33 @@ ul#socials-list {
     margin-top: 0.45rem;
 }
 
-hr#socials-divider {
-    width: 40%;  
+hr {
+    width: 35%;  
     background-color: #52616B;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
 
+#email-container {
+    color: #52616B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#email-container a {
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: #52616B;
+    text-shadow: 2px 2px 2px #bbc1c7;
+    margin-top: 0.2rem;
+}
+
+#email-container a:hover {
+    color: #C9D6DF;
+}
+
+#email-container span {
+    font-size: 2rem;
 }
