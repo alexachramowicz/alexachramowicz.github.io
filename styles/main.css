@@ -103,11 +103,13 @@ ul#navbar {
 #profile-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 5.5rem;
 }
 
 #about-container {
-    width: 23rem;
+    width: 22rem;
 }
 
 .sub-header {
@@ -119,7 +121,7 @@ ul#navbar {
 #about-para {
     font-size: 1.5rem;
     color: #1E2022;
-    line-height: 3ch;
+    line-height: 2.5ch;
 }
 
 #about-para a {
@@ -131,7 +133,7 @@ ul#navbar {
 }
 
 .linked-in-button{
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #0072b1;
@@ -144,7 +146,7 @@ ul#navbar {
 }
 
 img#pfp {
-    width: 21.5rem;
+    width: 20.5rem;
     height: auto;
     border-radius: 50%;
     border: 0.75rem solid #52616B;
@@ -260,8 +262,7 @@ hr {
     font-size: 2.6rem;
     text-decoration: none;
     color: #52616B;
-    text-shadow: 2px 2px 2px #bbc1c7;
-    margin-top: 0.2rem;
+    text-shadow: 1px 1px 1.5px #bbc1c7;
 }
 
 #email-container a:hover {
