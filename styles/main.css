@@ -37,6 +37,7 @@ div#title{
     font-size: 5rem;
     background-color: #1E2022;
     color: yellow;
+    padding: 0rem 1rem;
 }
 
 div#arrow {
@@ -116,13 +117,14 @@ ul#navbar {
 .sub-header {
     font-size: 2.5rem;
     color: #52616B;
-    margin-bottom: 0.75rem;
+    /* margin-bottom: 0.75rem; */
 }
 
 #about-para {
     font-size: 1.5rem;
     color: #1E2022;
     line-height: 2.5ch;
+    margin-top: 1rem;
 }
 
 #about-para a {
@@ -139,6 +141,11 @@ ul#navbar {
     text-decoration: none;
     border: 1px solid #0072b1;
     border-radius: 0.3rem;
+}
+
+.linked-in-button:hover {
+    background-color: #F0F5F9;
+    opacity: 90%;
 }
 
 .linked-in-button img {
@@ -177,7 +184,6 @@ img#pfp {
     background-repeat: none;
     background-size: 100% 100%;
     background-position: center;
-    /* background-origin: content-box; */
 
     position: relative;
     align-items: center;
@@ -191,6 +197,11 @@ img#pfp {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.project-card:hover {
+    background-color: #F0F5F9;
+    opacity: 7.5%;
 }
 
 #rov-project {
