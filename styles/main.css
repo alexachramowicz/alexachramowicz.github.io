@@ -36,24 +36,24 @@ div#title{
 
     font-size: 5rem;
     background-color: #1E2022;
-    color: yellow;
+    color: #F0F5F9;
     padding: 0rem 1rem;
 }
 
 div#arrow {
     flex: 0 1 auto;
     margin-left: auto;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 #arrow a{
-    color: yellow;
-    font-size: 3rem;
+    color: #F0F5F9;
+    font-size: 5rem;
     text-decoration: none;
 }
 
 #arrow a:hover{
-    color: #F0F5F9;
+    color: #C9D6DF;
 }
 
 #nav-container {
@@ -175,19 +175,42 @@ img#pfp {
 }
 
 .project-card {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    height: 15rem;
     width: 15rem;
     border-radius: 0.5rem; 
+    position: relative;
+    border: 0.3rem solid #1E2022;
 
     background-color: #F0F5F9;
     background-repeat: none;
     background-size: 100% 100%;
     background-position: center;
 
-    position: relative;
+    display: flex;
     align-items: center;
-    border: 0.3rem solid #1E2022;
+    justify-content: center;
+}
+
+.project-card:hover > .project-description{
+    display: block;
+    background-color: #F0F5F9;
+    opacity: 95%;
+}
+
+.project-card .project-description {
+    color: #1E2022;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.project-card .project-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.project-card .project-skills {
+    font-size: 1.25rem;
 }
 
 .project-card a {
@@ -197,11 +220,6 @@ img#pfp {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.project-card:hover {
-    background-color: #F0F5F9;
-    opacity: 7.5%;
 }
 
 #rov-project {
