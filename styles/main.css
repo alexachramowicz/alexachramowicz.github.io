@@ -202,15 +202,18 @@ img#pfp {
     height: 100%;
     width: 100%;
     display: none;
+    border-radius: inherit; 
 }
 
 .project-card .project-title {
     font-size: 1.75rem;
     font-weight: bold;
+    padding: 2rem 0.5rem;
 }
 
 .project-card .project-skills {
     font-size: 1.25rem;
+    padding: 0rem 0.5rem;
 }
 
 .project-card a {
