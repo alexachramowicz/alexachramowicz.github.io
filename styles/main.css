@@ -34,7 +34,7 @@ div#title{
     flex: 0 1 auto;
     position: absolute;
 
-    font-size: 5rem;
+    font-size: 6.25rem;
     background-color: #1E2022;
     color: #F0F5F9;
     padding: 0rem 1rem;
@@ -62,7 +62,7 @@ div#arrow {
 
 ul#navbar {
     margin: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     width: 100%;
 
     list-style-type: none;
