@@ -21,7 +21,9 @@ From the repository root, run `py -m http.server 8000` on Windows
 Open http://localhost:8000. Stop the server with Ctrl+C.
 
 ## Validation
-No automated tests or CI checks are currently configured.
+Run `py -B -m unittest discover -s tests -v` on Windows (use `python3` elsewhere).
+GitHub Actions runs these source regression checks on pushes and pull requests into main.
+These tests cover assets, internal links, unique IDs, and core page structure, not rendering.
 Run `git diff --check` after changes.
 For page changes, check desktop and narrow layouts, navigation, project links,
 hover behavior, and keyboard access in a browser.
